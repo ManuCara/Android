@@ -12,12 +12,29 @@
         android:background="#fff"
         android:orientation="vertical">
         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:text="Exercise Welcome! Done! "
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:background="#8f00ff"
+            android:textColor="#fff"
+            />
+        <TextView
             android:layout_width="200dp"
             android:layout_height="50dp"
             android:id="@+id/textView"
             android:gravity="center"
             android:textColor="@color/black"
             android:layout_margin="100dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/arrivo"
+            android:text="Arrivato alla activity 2!"
+            android:gravity="center"
             ></TextView>
     </LinearLayout>
 

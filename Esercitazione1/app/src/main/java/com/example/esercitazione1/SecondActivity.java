@@ -20,5 +20,7 @@ public class SecondActivity extends AppCompatActivity {
         TextView textView = findViewById(R.id.textView);
         textView.setText(message);
 
+        TextView textView1 = findViewById(R.id.arrivo);
+
     }
 }
